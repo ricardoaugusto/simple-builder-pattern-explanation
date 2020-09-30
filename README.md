@@ -43,7 +43,7 @@ echo $outfit->show();
 >
 > Client: We also need to consider the winter outfits, so let's add options for sweater, jacket, boots. And the summer outfit, and accessories. Ah! Also the gadgets, they're important.
 
-_Side Note: a Business Analyst would be really helpful here. This role is responsible for gathering requirements, making wireframes, discussing and understanding current and future needs._
+_Side Note: a Business Analyst would be really helpful here. This role is responsible for gathering requirements, making wireframes, creating processes flows, acting as a bridge between the Client and Dev Team, discussing and understanding current and future needs, and so on._
 
 The dev goes back to the workbench and starts incrementing the Outfit class like this:
 
