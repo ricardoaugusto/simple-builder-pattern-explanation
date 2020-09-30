@@ -63,7 +63,6 @@ public function __construct($shirt, $trousers, $shoes, $sweater, $jacket, $boots
 ```php
 class Outfit {
     protected $head;
-    protected $face;
     protected $torso;
     protected $legs;
     protected $feet;
@@ -71,7 +70,6 @@ class Outfit {
 
     public function __construct(OutfitBuilder $outfit) {
         $this->head = $outfit->head;
-        $this->face = $outfit->face;
         $this->torso = $outfit->torso;
         $this->legs = $outfit->legs;
         $this->feet = $outfit->feet;
