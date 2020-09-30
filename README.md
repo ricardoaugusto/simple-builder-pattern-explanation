@@ -6,13 +6,13 @@ Hey dev! How's it going? Today we're going to talk about a very common situation
 >
 > Dev: Ok, and how should it behave? Can you please tell me some details?
 >
-> Client: the customer should be able to select 1 shirt, 1 trousers, 1 pair of shoes. It's that simple.
+> Client: The customer should be able to select 1 shirt, 1 trousers, 1 pair of shoes. It's that simple.
 >
-> Dev: Ok let me get into code! We'll talk later today.
+> Dev: Let me get into code! We'll talk later today.
 >
 > Client: Ok sounds good.
 
-So the Dev proceeds with this little info at hand, and creates a simple Class like this:
+The Dev proceeds with this little info at hand, and creates a simple `Outfit Class` like this:
 
 ```php
 class Outfit {
@@ -39,9 +39,11 @@ $outfit = new Outfit('Black', 'Long', 'Casual');
 echo $outfit->show();
 ```
 
-> Client: ok, I have a client with "Black shirt with Long trousers and Casual shoes." Seems good but we have a change in here.
+> Client: ok, I have a customer with "Black shirt with Long trousers and Casual shoes." Seems good but we have to make a change in here.
 >
 > Client: We also need to consider the winter outfits, so let's add options for sweater, jacket, boots. And the summer outfit, and accessories. Ah! Also the gadgets, they're important.
+
+_Side Note: a Business Analyst would be really helpful here. This role is responsible for gathering requirements, making wireframes, discussing and understanding current and future needs._
 
 The dev goes back to the workbench and starts incrementing the Outfit class like this:
 
